@@ -1,0 +1,151 @@
+*{
+    font-size: 12px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.corpo{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #f0f2f5;
+    height: 600px;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-alin{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px 20px 15px 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #888888;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.email, .senha{
+    background: #FFFFFF;
+    border: 1px solid #dddfe2;
+    border-radius: 3px;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    height: 22px;
+    line-height: 16px;
+    padding: 13px;
+    width: 300px;
+}
+
+.email:focus, .senha:focus{
+    outline: none;
+}
+
+.entrar{
+    width: 100%;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.entrar:hover{
+    background-color: #166fe5;
+    transition: .6s;
+}
+
+h4{
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 1;
+}
+
+.esqueceu{
+    text-decoration: none;
+    color: #385898;
+    font-size: 15px;
+}
+
+.esqueceu:hover{
+    text-decoration: underline;
+}
+
+.nova{
+    color: #fff;
+    text-decoration: none;
+}
+
+.novaConta{
+    background-color: #42b72a;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.novaConta:hover{
+    background-color: #36a420;
+}
+
+.divisor{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    background-color: #c5c5c5;
+    border: none;
+}
+
+.rodaPe{
+    background-color: #fff;
+}
+
+.primeiraParte{
+    padding-top: 50px;
+    
+}
+
+.rodaPe a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #737373;
+}
+
+.rodaPe button{
+    padding: 0;
+    height: 15px;
+    text-align: center
+}
+
+.rodaPe a:hover{
+    text-decoration: underline;
+}
+
+.nomedoRodaPe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
