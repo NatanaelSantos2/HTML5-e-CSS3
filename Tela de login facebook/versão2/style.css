@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-color {
+    background-color: white;
+    border-radius: 8px;
+    padding: 0 0 14px 0;
+    width: 396px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.titulo-form p {
+    margin: 0;
+    padding: 24px 16px;
+    font-size: 20px;
+}
+
+.btn-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 17px;
+    border: 1px solid #dddfe2;
+    width: 330px;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #c6c8ca;
+}
+
+.btn-form:focus {
+    outline: none;
+}
+
+.btn-form:focus::placeholder {
+    color: #ccd0d5;;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.form-input div{
+    padding: 6px 0;
+}
+
+.form-conta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+    
+}
+
+.form-conta button {
+    cursor: pointer;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    padding: 13px 155px;    
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.form-conta a{
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0 2px;
+}
+
+.divisor{
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    gap: 10px;
+    font-size: 12px;
+    color: #96999e;
+}
+
+.form-ContaNova {
+    padding: 20px;
+}
+
+.form-ContaNova a{
+    text-decoration: none;
+    background-color: #42b72a;
+    color: white;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 16px 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+hr {
+    width: 100%;
+}
+
+/* Footer */
+.container-footer {
+    background-color: white;
+    max-width: 100%;
+    padding: 50px;
+    margin: auto;
+}
+
+.footer-idioma {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-detalhes a, .footer-idioma a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 12px;
+}
+
+.footer-detalhes a:hover, .footer-idioma a:hover{
+    text-decoration: underline;
+}
+
+.footer-detalhes {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-direitos {
+    padding-top: 10px;
+    font-size: 12px;
+    color: #737373;
+    font-weight: 700;
+}
