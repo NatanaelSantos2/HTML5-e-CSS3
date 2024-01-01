@@ -1,4 +1,4 @@
-Nessa aula de HTML5 e CSS3 na TreinaWeb eu tive varios conhecimentos sobre, além dos varios exercicios feitos e projeto.
+Nessa aula de HTML5 e CSS3 da TreinaWeb eu tive varios conhecimentos sobre, além dos varios exercicios feitos e projeto. Aqui vou psotar alguns e projetos feitos aleatoriamente apenas para estudo.
 
 1. **HTML5 + CSS3 - Primeiros passos**
 2. **HTML5 + CSS3 - Fundamentos**
