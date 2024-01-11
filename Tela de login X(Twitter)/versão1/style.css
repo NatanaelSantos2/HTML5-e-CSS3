@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* CLASSES CONTAINER */
+.container {
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+    font-family: "TwitterChirpExtendedHeavy","Verdana",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.div-form {
+    max-width: 280px;
+}
+
+.div-divisao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LOGO X */
+.x {
+    text-align: center;
+    padding: 32px;
+}
+
+.bi-twitter-x {
+    width: 100%;
+    color: rgb(231, 233, 234);
+}
+
+/* TITULO */
+.div-titulo h1{
+    font-size: 55px;
+    margin: 48px 0;
+    color: rgb(231, 233, 234);
+}
+
+.div-form h5 {
+    font-size: 29px;
+    color: rgb(231, 233, 234);
+    margin: 0 0 32px 0;
+}
+
+/* BOTÃO GOOGLE */
+.btn-google a{
+    text-decoration: none;
+}
+
+.btn-google {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+}
+
+/* DIVISÃO OU */
+.div-ou {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    
+}
+.div-ou hr {
+    width: 100%;
+    border: 1px solid rgb(231, 233, 234);
+}
+
+/* BOTÃO APPLE  */
+.btn-apple a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn-apple {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 100px;
+}
+
+/* BOTÃO CRIAR CONTA */
+.btnconta a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+}
+.btnconta{
+    text-decoration: none;
+    background-color: rgb(29, 155, 240);
+    padding: 10px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+/* TERMOS */
+.div-termos {
+    font-size: 11px;
+    color: rgb(113, 118, 123);
+}
+
+.div-termos a{
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+}
+
+/* BOTÃO ENTRAR */
+.txt-TemConta {
+    font-size: 17px;
+}
+.btn-entrar{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(231, 233, 234);
+    border-radius: 100px;
+}
+
+.btn-entrar a {
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+    font-weight: 600;
+}
+
+/* FOOTER */
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    margin-top: 100px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(113, 118, 123);
+}
+
+.footer-links  p {
+    margin: 0;
+}
