@@ -21,6 +21,11 @@ saveBtn.addEventListener("click", function () {
     }
 });
 
+function remover(valor) {
+    const idLi = document.getElementById(valor);
+    idLi.remove();
+}
+
 input.addEventListener("keydown", function () {
     input.style.border = "1px solid #bdbdbd";
 });
