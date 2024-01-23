@@ -1,0 +1,8 @@
+1 - Exercício Básico:
+
+Passo 1 - Crie um arquivo HTML com um elemento <div> e dê a
+ele uma classe, por exemplo, "box-1".
+
+Passo 2 - No arquivo CSS, estilize a caixa para ter uma largura
+de 200 pixels, altura de 150 pixels, cor de fundo azul
+e uma borda sólida preta de 2 pixels.
