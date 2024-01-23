@@ -1,17 +1,24 @@
-O modelo de caixa (Box Model) é um conceito fundamental em HTML e CSS que descreve como os elementos HTML são renderizados visualmente na página. Cada elemento na página é considerado uma "caixa" retangular, e o Box Model especifica como o conteúdo, as bordas, o preenchimento e as margens de uma caixa interagem entre si.
+O modelo de caixa (Box Model) é um conceito fundamental em HTML e CSS que descreve como os elementos HTML são renderizados
+visualmente na página. Cada elemento na página é considerado uma "caixa" retangular, e o Box Model especifica como o conteúdo,
+as bordas, o preenchimento e as margens de uma caixa interagem entre si.
 
 O modelo de caixa consiste em quatro partes principais:
 
-1. Conteúdo (Content): É o próprio conteúdo do elemento, como texto, imagens, etc. A largura e a altura do conteúdo são definidas pelo `width` e `height` no CSS.
+1. Conteúdo (Content): É o próprio conteúdo do elemento, como texto, imagens, etc.
+A largura e a altura do conteúdo são definidas pelo `width` e `height` no CSS.
 
-2. Preenchimento (Padding): É uma área transparente ao redor do conteúdo, dentro da borda. O preenchimento é controlado pelas propriedades `padding-top`, `padding-right`, `padding-bottom` e `padding-left` no CSS.
+2. Preenchimento (Padding): É uma área transparente ao redor do conteúdo, dentro da borda.
+O preenchimento é controlado pelas propriedades `padding-top`, `padding-right`, `padding-bottom` e `padding-left` no CSS.
 
-3. Borda (Border): É a borda ao redor do conteúdo e do preenchimento. A borda é definida pelas propriedades `border-width`, `border-style` e `border-color` no CSS.
+3. Borda (Border): É a borda ao redor do conteúdo e do preenchimento. A borda é definida pelas propriedades
+`border-width`, `border-style` e `border-color` no CSS.
 
-4. Margem (Margin): É a área transparente fora da borda. As margens são controladas pelas propriedades `margin-top`, `margin-right`, `margin-bottom` e `margin-left` no CSS.
+4. Margem (Margin): É a área transparente fora da borda. As margens são controladas pelas propriedades
+`margin-top`, `margin-right`, `margin-bottom` e `margin-left` no CSS.
 
 A fórmula geral para calcular a largura total de um elemento é a seguinte:
 
 Largura Total = Conteúdo + Preenchimento + Borda + Margem
 
-Quando você define a largura e a altura de um elemento no CSS, essas dimensões se referem ao conteúdo, e o modelo de caixa adiciona automaticamente o preenchimento, a borda e a margem.
+Quando você define a largura e a altura de um elemento no CSS, essas dimensões se referem ao conteúdo,
+e o modelo de caixa adiciona automaticamente o preenchimento, a borda e a margem.
