@@ -1,0 +1,6 @@
+2 - Exercício de Posicionamento:
+
+Passo 1 - Crie duas caixas (duas divs) no HTML, uma ao lado da outra.
+
+Passo 2 - Estilize as caixas para terem uma largura de 300 pixels,
+altura de 200 pixels, cor de fundo verde e uma margem de 10 pixels entre elas.
