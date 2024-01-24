@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "TwitterChirpExtendedHeavy","Verdana",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 /* CLASSES CONTAINER */
 .container {
     max-width: 1200px;
-    padding: 15px;
+    padding: 30px;
     margin: 0 auto;
-    font-family: "TwitterChirpExtendedHeavy","Verdana",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 .div-form {
@@ -17,15 +17,15 @@ body {
 .div-divisao {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
+    /* height: 100vh; */
     justify-content: center;
     align-items: center;
 }
 
 /* LOGO X */
 .x {
-    text-align: center;
-    padding: 32px;
+    margin: 0 auto;
+    width: 300px;
 }
 
 .bi-twitter-x {
@@ -149,4 +149,37 @@ body {
 
 .footer-links  p {
     margin: 0;
+    font-size: 13px;
+    color: rgb(113, 118, 123);
+}
+
+/* Break point */
+
+@media(max-width: 950px) {
+    .container {
+        padding: 50px 150px;
+    }
+
+    .div-divisao {
+        grid-template-columns: 1fr;
+    }
+
+    .x {
+        width: 50px;
+        margin: 0;
+    }
+
+    .div-titulo h1 {
+        font-size: 40px;
+    }
+
+    .div-form h5 {
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 375px) {
+    .div-titulo h1 {
+        word-break: break-all;
+    }
 }
