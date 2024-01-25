@@ -1,0 +1,7 @@
+3 - Exercício com Margens e Preenchimentos:
+
+Passo 1 - Crie uma caixa no HTML e dê a ela uma classe, por exemplo, "box-2".
+
+Passo 2 - No CSS, defina uma margem de 20 pixels, preenchimento interno de
+15 pixels e uma borda sólida de 3 pixels. Certifique-se de que a largura total
+da caixa seja 300 pixels.
