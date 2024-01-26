@@ -1,0 +1,15 @@
+/* CENTRALIZA NO CENTRO DA TELA */
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CENTRALIZA NO MEIO ENCIMA */
+.box-3 {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    /* margin: 0 auto; */
+}

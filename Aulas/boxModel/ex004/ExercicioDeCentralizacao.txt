@@ -1,0 +1,9 @@
+4 - Exercício de Centralização:
+
+Passo 1 - Crie uma caixa no HTML e dê a ela uma classe,
+por exemplo, "box-3".
+
+Passo 2 - No CSS, centralize a caixa na tela horizontal e verticalmente.
+
+
+Dica: Use margin e position.
