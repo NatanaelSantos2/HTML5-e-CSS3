@@ -1,0 +1,9 @@
+1 - Exercício de Layout:
+
+Passo 1 - Crie três caixas (divs) no HTML, uma acima da outra.
+
+Passo 2 - Estilize cada caixa para ter uma largura de 400 pixels,
+altura de 100 pixels, cor de fundo amarela.
+
+Passo 3 - Adicione um preenchimento interno de 20 pixels à primeira
+caixa, 15 pixels à segunda e 10 pixels à terceira.
