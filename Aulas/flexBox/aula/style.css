@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+    flex-flow: row;
+    border: 3px solider black;
+    background-color: #4e57ff4f;
+    margin: 50px 20px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* gap: 20px; */
+    /* align-items: stretch; esticar itens */
+    /* flex-wrap: wrap; nowrap para não quebrar - wrap quando for sair do conteiner ele joga pra baixo */
+    /* justify-content: space-evenly; */
+    
+}
+
+
+.start{
+    align-self: flex-start;
+    flex-grow: 1;
+    order: 3;
+
+}
+
+.end{
+    align-self: flex-end;
+    flex-grow: 2;
+    order: 1;
+}
+
+.item1{
+    padding: 25px;
+    background-color: #4e56ff;
+    border: 3px solid #48d359;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+}
