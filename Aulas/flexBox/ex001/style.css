@@ -1,0 +1,15 @@
+.flexBox1 {
+    background-color: aqua;
+    width: 70%;
+    height: 100px;
+}
+
+.flexBox2 {
+    background-color: rgb(136, 255, 0);
+    width: 30%;
+    height: 100px;
+}
+
+.flex-container {
+    display: flex;
+}

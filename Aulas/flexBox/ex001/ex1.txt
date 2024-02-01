@@ -1,0 +1,5 @@
+Exercício 1: Layout Básico
+
+Crie um layout simples com dois elementos, um ao lado do outro,
+usando Flexbox. O primeiro elemento deve ter 70% da largura total
+e o segundo 30%.
