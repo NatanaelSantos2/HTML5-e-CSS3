@@ -1,0 +1,6 @@
+Exercício 2: Centralizar Itens
+
+Crie um contêiner flexível e coloque
+cinco elementos dentro dele. Faça com
+que esses elementos estejam centralizados
+tanto horizontal quanto verticalmente.
