@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 700px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* Inputs */
+.area-form {
+    text-align: center;
+    margin: 30px;
+    border: 1px solid #dddddd;
+    padding: 30px 30px 20px 30px;
+    width: 100%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#input-Email, #input-Senha{
+    padding: 12px 5px 7px 8px;
+    border: 1px solid #c7c6c6;
+    border-radius: 2px;
+    outline: none;
+}
+
+#input-Email:focus, #input-Senha:focus {
+    border: 1px solid #8b8b8b;
+}
+
+#input-Senha {
+    margin: 8px 0px;
+}
+
+#btn-Entrar {
+    padding: 9px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3ea3f5;
+    color: white;
+    font-weight: 700;
+    margin: 7px 0px 20px;
+}
+
+/* Separação OU */   
+.separacao{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.separacao p {
+    margin: 0;
+    color: #727272;
+    font-size: 0.7rem;
+}
+.separacao hr{
+    display: flex;
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+
+/* Entrar com facebook */
+.links-Acesso {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-Acesso a{
+    margin: 10px;
+    text-decoration: none;
+    color: #005194;
+}
+
+.entrar {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.esquceuSenha {
+    font-size: 0.76rem;
+}
+
+.iconLogin {
+    margin-right: 6px;
+}
+
